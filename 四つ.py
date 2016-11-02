@@ -1,3 +1,5 @@
+＃これは自分の作ったファイルじゃなくて他人のファイルである。
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
@@ -29,4 +31,5 @@ for clf, lab, grd in zip([clf1, clf2, clf3, eclf],
     ax = plt.subplot(gs[grd[0], grd[1]])
     fig = plot_decision_regions(X=X, y=y, clf=clf, legend=2)
     plt.title(lab)
+    
 plt.show()
